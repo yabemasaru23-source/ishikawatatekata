@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>建方職人・協力業者 大募集！ | 株式会社常笑</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Noto Sans JP"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            blue: '#1E3A8A', // 信頼感のある青
+                            orange: '#F97316', // 活気のあるオレンジ
+                            light: '#F3F4F6'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+        .hero-pattern {
+            background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.8)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .clip-bottom {
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Header -->
+    <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="text-2xl font-black text-brand-blue tracking-tight">
+                        <i class="fa-solid fa-helmet-safety text-brand-orange mr-2"></i>株式会社常笑
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#about" class="text-gray-600 hover:text-brand-blue font-medium transition">私たちについて</a>
+                    <a href="#work" class="text-gray-600 hover:text-brand-blue font-medium transition">仕事内容</a>
+                    <a href="#requirements" class="text-gray-600 hover:text-brand-blue font-medium transition">募集要項</a>
+                    <a href="#faq" class="text-gray-600 hover:text-brand-blue font-medium transition">Q&A</a>
+                    <a href="#contact" class="bg-brand-orange hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-bold shadow-md hover:shadow-lg transition transform hover:-translate-y-0.5">
+                        応募・お問い合わせ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-pattern clip-bottom min-h-[90vh] flex items-center pt-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="max-w-3xl">
+                <span class="inline-block py-1 px-3 rounded-full bg-brand-orange/20 text-brand-orange border border-brand-orange/50 font-bold text-sm mb-6 animate-pulse">
+                    石川県（金沢・小松エリア）求人募集
+                </span>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-black text-white leading-tight mb-6">
+                    石川の空に、共に<br>
+                    <span class="text-brand-orange">デカい柱</span>を立てよう！
+                </h1>
+                <p class="text-xl sm:text-2xl text-gray-200 font-medium mb-10 leading-relaxed">
+                    「常に笑い、共に成長する」<br class="sm:hidden">
+                    株式会社常笑で、建方職人を大募集！<br>
+                    学歴不問！未経験者も、一人親方も大歓迎。<br>
+                    <span class="text-brand-orange font-bold text-2xl sm:text-3xl mt-4 inline-block bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm border border-brand-orange/30">未来は一緒につくろう！🔥</span>
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contact" class="text-center bg-brand-orange hover:bg-orange-600 text-white text-lg px-8 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+                        今すぐ応募・相談する <i class="fa-solid fa-arrow-right ml-2"></i>
+                    </a>
+                    <a href="http://jyoushou.com/" target="_blank" rel="noopener noreferrer" class="text-center bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white text-lg px-8 py-4 rounded-full font-bold transition">
+                        会社HPを見る <i class="fa-solid fa-external-link-alt ml-2 text-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-black text-brand-blue mb-4">常に笑い合える関係を。</h2>
+                <div class="w-24 h-1 bg-brand-orange mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="w-full md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1541888086425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="建設現場で働く仲間" class="rounded-2xl shadow-2xl object-cover h-[400px] w-full">
+                </div>
+                <div class="w-full md:w-1/2 space-y-6">
+                    <h3 class="text-2xl font-bold text-gray-900">はじめまして、株式会社常笑（じょうしょう）です。</h3>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        私たちの社名には「関わるすべての人と、常に笑い合える関係を築きたい」という強い想いが込められています。
+                    </p>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        この度、石川県の金沢市・小松市周辺エリアにて、木造建築の要となる「建方（たてかた）」作業を共に担ってくれる新しい仲間、および協力業者様を募集いたします。
+                    </p>
+                    <div class="bg-blue-50 border-l-4 border-brand-blue p-6 rounded-r-lg mt-6 shadow-sm">
+                        <p class="font-bold text-brand-blue space-y-4">
+                            <span class="block flex items-center"><i class="fa-solid fa-fire text-brand-orange text-2xl mr-3"></i> <span>【学歴不問・未経験大歓迎！】<br><span class="text-sm text-gray-600 font-normal">ガッツとやる気があればOK！イチから育てます。</span></span></span>
+                            <span class="block flex items-center"><i class="fa-solid fa-face-laugh-beam text-brand-orange text-2xl mr-3"></i> <span>【とにかく働きやすい！】<br><span class="text-sm text-gray-600 font-normal">チームワーク抜群！すぐに馴染める明るい職場です。</span></span></span>
+                            <span class="block flex items-center"><i class="fa-solid fa-handshake text-brand-orange text-2xl mr-3"></i> <span>【経験者ももちろん大歓迎！】<br><span class="text-sm text-gray-600 font-normal">即戦力の一人親方様、協力業者様も大募集！</span></span></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section (Features) -->
+    <section id="work" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-black text-brand-blue mb-4">「建方」ってどんな仕事？</h2>
+                <div class="w-24 h-1 bg-brand-orange mx-auto rounded-full mb-8"></div>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    何もない基礎の上に、1日で家の骨組みを組み上げる。最高にダイナミックで、圧倒的な達成感を得られる仕事です。
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition transform hover:-translate-y-1 text-center">
+                    <div class="w-20 h-20 mx-auto bg-orange-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-house-chimney text-4xl text-brand-orange"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">形になる感動</h3>
+                    <p class="text-gray-600">
+                        図面だったものが、自分たちの手で立体的な「家」の骨組みへと変わっていく。そのスピード感とスケールは建方ならではの醍醐味です。
+                    </p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition transform hover:-translate-y-1 text-center">
+                    <div class="w-20 h-20 mx-auto bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-people-carry-box text-4xl text-brand-blue"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">チームワーク</h3>
+                    <p class="text-gray-600">
+                        クレーンオペレーターや仲間の職人と連携し、息を合わせて作業を進めます。声掛けと安全確認が絆を深めます。
+                    </p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition transform hover:-translate-y-1 text-center">
+                    <div class="w-20 h-20 mx-auto bg-green-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-arrow-trend-up text-4xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">確かな技術と成長</h3>
+                    <p class="text-gray-600">
+                        未経験でも大丈夫！先輩職人がイチから丁寧に教えます。一生モノの技術を身につけ、プロフェッショナルへ成長できます。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements Section -->
+    <section id="requirements" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-black text-brand-blue mb-4">募集要項</h2>
+                <div class="w-24 h-1 bg-brand-orange mx-auto rounded-full"></div>
+            </div>
+
+            <div class="bg-white border-2 border-gray-100 rounded-3xl overflow-hidden shadow-xl">
+                <table class="w-full text-left border-collapse">
+                    <tbody>
+                        <tr class="border-b border-gray-100">
+                            <th class="py-5 px-6 bg-gray-50 font-bold text-brand-blue w-1/3 md:w-1/4">職種</th>
+                            <td class="py-5 px-6 text-gray-800">
+                                建方スタッフ（大工・とび工）<br>
+                                協力業者（一人親方・法人問わず）
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <th class="py-5 px-6 bg-gray-50 font-bold text-brand-blue">仕事内容</th>
+                            <td class="py-5 px-6 text-gray-800">
+                                木造住宅などの建方（上棟）作業全般。<br>
+                                クレーン等と連携し、柱や梁を組み上げていくやりがいのあるお仕事です。
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <th class="py-5 px-6 bg-gray-50 font-bold text-brand-blue">勤務地・現場</th>
+                            <td class="py-5 px-6 text-gray-800 font-medium">
+                                <i class="fa-solid fa-location-dot text-brand-orange mr-2"></i>石川県 金沢市・小松市 およびその周辺エリア
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-100">
+                            <th class="py-5 px-6 bg-gray-50 font-bold text-brand-blue">求める人物像</th>
+                            <td class="py-5 px-6 text-gray-800 space-y-2">
+                                <ul class="list-none space-y-1 font-black text-lg text-brand-blue mb-4 bg-blue-50 inline-block p-3 rounded-lg">
+                                    <li>✨ 学歴不問！</li>
+                                    <li>✨ 未経験者・異業種からの挑戦大歓迎！</li>
+                                </ul>
+                                <ul class="list-disc list-inside space-y-1">
+                                    <li>体力に自信があり、高所作業に抵抗がない方</li>
+                                    <li>チームワークを大切にし、元気な挨拶ができる方</li>
+                                    <li>「常に笑って」前向きに仕事に取り組める方</li>
+                                </ul>
+                                <p class="text-brand-orange font-bold mt-3 text-sm">※経験者・有資格者（玉掛け・足場など）は優遇いたします。</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="py-5 px-6 bg-gray-50 font-bold text-brand-blue">給与・待遇</th>
+                            <td class="py-5 px-6 text-gray-800">
+                                経験・能力を考慮の上、決定いたします。<br>
+                                <span class="text-sm text-gray-500">※詳細はお問い合わせ時にお伝えします。</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Q&A Section -->
+    <section id="faq" class="py-20 bg-brand-light">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-brand-orange font-bold tracking-wider text-sm mb-2 block">FAQ</span>
+                <h2 class="text-3xl md:text-4xl font-black text-brand-blue mb-4">よくあるご質問</h2>
+                <div class="w-24 h-1 bg-brand-orange mx-auto rounded-full"></div>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Q1 -->
+                <div class="bg-white rounded-2xl p-6 shadow-md border-l-4 border-brand-orange transform transition hover:-translate-y-1">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 flex items-start">
+                        <span class="text-brand-orange font-black text-3xl mr-3 leading-none">Q.</span>
+                        本当に未経験・学歴不問でも大丈夫ですか？
+                    </h3>
+                    <p class="text-gray-600 flex items-start text-lg">
+                        <span class="text-brand-blue font-black text-3xl mr-3 leading-none">A.</span>
+                        もちろんです！今のスキルや学歴は一切問いません。必要なのは「やってみたい！」というガッツだけ。頼れる先輩たちがイチから丁寧に教えるので安心してください！
+                    </p>
+                </div>
+                <!-- Q2 -->
+                <div class="bg-white rounded-2xl p-6 shadow-md border-l-4 border-brand-orange transform transition hover:-translate-y-1">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 flex items-start">
+                        <span class="text-brand-orange font-black text-3xl mr-3 leading-none">Q.</span>
+                        職場の雰囲気や「働きやすさ」について教えてください。
+                    </h3>
+                    <p class="text-gray-600 flex items-start text-lg">
+                        <span class="text-brand-blue font-black text-3xl mr-3 leading-none">A.</span>
+                        社名の通り「常に笑い合える」明るい雰囲気が自慢です！変な上下関係の厳しさはなく、みんなで声を掛け合いながら安全第一で楽しく作業しています。スグに馴染める環境ですよ！
+                    </p>
+                </div>
+                <!-- Q3 -->
+                <div class="bg-white rounded-2xl p-6 shadow-md border-l-4 border-brand-orange transform transition hover:-translate-y-1">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 flex items-start">
+                        <span class="text-brand-orange font-black text-3xl mr-3 leading-none">Q.</span>
+                        必要な資格や道具はありますか？
+                    </h3>
+                    <p class="text-gray-600 flex items-start text-lg">
+                        <span class="text-brand-blue font-black text-3xl mr-3 leading-none">A.</span>
+                        最初は動きやすい服装があればOKです！働きながら「玉掛け」などの必要な資格取得もサポートします。経験者の方は、ご自身の使い慣れた道具で存分に腕を振るってください！
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contact Section -->
+    <section id="contact" class="py-20 bg-brand-blue text-white relative overflow-hidden">
+        <!-- Background decorative elements -->
+        <div class="absolute top-0 right-0 -mt-16 -mr-16 w-64 h-64 bg-white opacity-5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -mb-16 -ml-16 w-64 h-64 bg-brand-orange opacity-10 rounded-full blur-3xl"></div>
+
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <span class="inline-block py-2 px-6 rounded-full bg-brand-orange text-white font-black text-lg mb-6 shadow-lg animate-bounce">
+                未来は一緒につくろう！
+            </span>
+            <h2 class="text-3xl md:text-5xl font-black mb-6">少しでも気になったら<br class="sm:hidden">まずはご連絡を！</h2>
+            <p class="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
+                「話だけ聞いてみたい」「現場見学したい」という方も大歓迎です。<br>
+                株式会社常笑で、共に石川の街づくりを盛り上げましょう！
+            </p>
+
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                <!-- Website Link -->
+                <a href="http://jyoushou.com/" target="_blank" rel="noopener noreferrer" class="w-full md:w-auto flex items-center justify-center bg-white text-brand-blue hover:bg-gray-100 px-8 py-5 rounded-xl font-bold text-xl shadow-lg transition transform hover:-translate-y-1">
+                    <i class="fa-solid fa-desktop mr-3 text-2xl"></i> WEBサイトから応募する
+                </a>
+                
+                <!-- Phone (Placeholder format) -->
+                <a href="tel:0000000000" class="w-full md:w-auto flex items-center justify-center bg-brand-orange hover:bg-orange-600 text-white px-8 py-5 rounded-xl font-bold text-xl shadow-lg transition transform hover:-translate-y-1">
+                    <i class="fa-solid fa-phone mr-3 text-2xl"></i> お電話でのお問い合わせ
+                </a>
+            </div>
+            <p class="mt-6 text-blue-200 text-sm">
+                ※お電話の際は「建方の求人（LP）を見た」とお伝えいただくとスムーズです。
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-center md:text-left">
+                <div class="text-2xl font-black text-white tracking-tight mb-2">
+                    <i class="fa-solid fa-helmet-safety text-brand-orange mr-2"></i>株式会社常笑
+                </div>
+                <p class="text-sm">石川県 金沢市・小松市エリアの建方・木造建築</p>
+            </div>
+            <div class="flex gap-6">
+                <a href="http://jyoushou.com/" target="_blank" class="hover:text-white transition">公式ホームページ <i class="fa-solid fa-external-link-alt text-xs"></i></a>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 pt-8 border-t border-gray-800 text-center text-sm">
+            &copy; 2024 株式会社常笑 All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
